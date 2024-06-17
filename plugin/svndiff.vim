@@ -92,6 +92,8 @@ function s:Svndiff_init()
 
   if has_key(s:rcs_type, fname)
     let s:is_active[fname] = 1
+  else
+    echom "svndiff: No version control system found."
   end
 endfunction
 

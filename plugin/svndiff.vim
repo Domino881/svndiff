@@ -97,7 +97,7 @@ function s:Svndiff_init()
   end
 endfunction
 
-call s:Svndiff_init()
+silent! call s:Svndiff_init()
 
 function g:Svndiff_update(...)
 
